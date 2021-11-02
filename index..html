@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <nav class="mt-6 ml-6 block font-bold">
+        <ul class="flex md:flex">
+            <li>
+                <img src="./images/whatsapp.png" width="25px">
+            </li>
+            <li class=" text-green-700 text-md">
+                <a href="tel:+551130536611">(11)3053-6611</a>
+            </li>
+            <li class="ml-5 hidden">
+                <a href="http://www.hcor.com.br/area-medica">Area Medica</a>
+            </li>
+            <li class="ml-5 hidden">
+                <a href="https://www.hcor.com.br/instituto-de-ensino/">Ensino</a>
+            </li>
+            <li class="ml-5 hidden">
+                <a href="https://www.hcor.com.br/instituto-de-pesquisa/">Pesquisa</a>
+            </li>
+            <li class="ml-5 mr-16 hidden">
+                <a href="https://www.hcor.com.br/sobre-o-hcor/responsabilidade-social/responsabilidade-social-hcor/">
+                    Responsabilidade Social</a>
+            </li>
+            <li class="ml-32 flex items-center relative hidden">
+                <input class="bg-gray-200 text-black py-1 pl-4 pr-10" type="text" placeholder="Oque está procurando ?">
+                <button class="absolute right-3"><img src="./images/pesquisa-de-lupa.png" width="20px"></button>
+            </li>
+        </ul>
+    </nav>
+    <nav style="box-shadow:rgba(79, 170, 255, 0.371) 0px 0px 20px 0px;"
+        class="flex items-center rounded-2xl mx-4 my-8 relative">
+        <img src="./images/logo.png" width="211px" class="w-40">
+        <ul class="text-blue-600 font-bold items-center hidden ml-56 z-10">
+            <li id="agenda">
+                <span class="flex items-center py-12 gap-2">Agendamentos </span>
+                <ul
+                    class="absolute bg-blue-600 text-white rounded-b-2xl -ml-24 text-center px-6 hidden">
+                    <li class="hover:bg-blue-900  py-1"><a
+                            href="https://www.hcor.com.br/exames-e-consultas/agendamento/">Busca de Remedios</a></li>
+                    <li class="hover:bg-blue-900 py-1"><a
+                            href="https://www.hcor.com.br/exames-e-consultas/buscar-medico-servico/">Busca de
+                            Médicos</a> </li>
+                    <li class="hover:bg-blue-900 px-6 py-1"><a
+                            href="https://www.hcor.com.br/exames-e-consultas/exames-diagnosticos/">Busca De Exames</a>
+                    </li>
+                    <li class="hover:bg-blue-900 px-6 py-1"><a
+                            href="https://www.hcor.com.br/exames-e-consultas/convenios/"></a> Convenios</li>
+                    <li class="hover:bg-blue-900 px-6 py-1"><a href="https://www.hcor.com.br/hcor-teleconsulta/"></a>
+                        Teleconsulta</li>
+                    <li class="hover:bg-blue-900 px-6 py-1"><a href=""></a> Atendimento Domiciliar</li>
+                    <li class="hover:bg-blue-900 px-6 py-1">Coleta Facil</li>
+                    <li class="hover:bg-blue-900 px-6 py-1 rounded-b-2xl">Procedimento de Internação</li>
+                </ul>
+            </li>
+            <li id="especial" class="ml-8">
+                <span class="flex items-center py-12 gap-2">Especialidades
+                </span>
+                <ul
+                    class=" absolute bg-blue-600 rounded-b-2xl text-white -ml-9 text-center -ml-12 hidden">
+                    <li class="hover:bg-blue-900 px-6 py-1 right-10"><a
+                            href="https://www.hcor.com.br/especialidades-servicos/especialidades/cardiologia/">Cardiologia</a>
+                        </a></li>
+                    <li class="hover:bg-blue-900 px-3 py-1">Neurologia</li>
+                    <li class="hover:bg-blue-900 px-3 py-1">Ortopedia</li>
+                    <li class="hover:bg-blue-900 px-3 py-1">Oncologia</li>
+                    <li class="hover:bg-blue-900 px-3 py-1">Pneumologia</li>
+                    <li class="hover:bg-blue-900 px-3 py-1">Medicina Diagnóstica</li>
+                    <li class="hover:bg-blue-900 px-3 py-1">Laboratório</li>
+                    <li class="hover:bg-blue-900 px-3 py-1 rounded-b-2xl">Exames</li>
+                </ul>
+            </li>
+            <li id="util" class="ml-8 ">
+                <span class="flex items-center  gap-2">Unidades </span>
+
+                <ul
+                    class=" absolute bg-blue-600 text-white -ml-2 py-12 rounded-b-2xltext-center  right-40 top-0 hidden">
+                    <li class="hover:bg-blue-900 px-3 py-1"><a
+                            href="https://www.hcor.com.br/sobre-o-hcor/unidades/">Unidades</a> </li>
+                    <li class="hover:bg-blue-900 px-3 py-1 rounded-b-2xl">Visitas</li>
+                </ul>
+            </li>
+            <li id="servi" class="ml-8 block ">
+                <span class="flex items-center gap-2">Serviços </span>
+
+                <ul
+                    class=" absolute bg-blue-600 text-white  rounded-l-2xl rounded-b-2xl text-center  right-40 top-0 hidden">
+                    <li class="hover:bg-blue-900 px-6 py-1"><a href="https://www.hcor.com.br/pronto-socorro-hcor/">
+                            Pronto-Socorro</a></li>
+                    <li class="hover:bg-blue-900 px-6 py-1 rounded-b-2xl">Vida Sem Cigarro</li>
+                </ul>
+            </li>
+            <li id="sobre" class="ml-8 block ">
+                <span class="flex items-center  gap-2">Sobre Hcor </span>
+
+                <ul
+                    class=" absolute bg-blue-600 text-white  rounded-l-2xl rounded-b-2xl text-center right-40 top-0 hidden">
+                    <li class="hover:bg-blue-900 px-6 py-1">Código de Condulta</li>
+                    <li class="hover:bg-blue-900 px-6 py-1">Portal Da Privacidade</li>
+                    <li class="hover:bg-blue-900 px-6 py-1">Fale Conosco</li>
+                    <li class="hover:bg-blue-900 px-6 py-1">Imprensa</li>
+                    <li class="hover:bg-blue-900 px-6 py-1">Trabalhe Conosco</li>
+                    <li class="hover:bg-blue-900 px-6 py-1">Hcor Explica</li>
+                    <li class="hover:bg-blue-900 px-6 py-1 rounded-b-2xl">Eventos</li>
+                </ul>
+            </li>
+        </ul>
+        <button class="absolute right-10" id="btn"><img src="./images/menu-aberto.png" width="30px"></button>
+    </nav>
+    <section style="background-image: url('./images/womman.png');" class="h-80 relative">
+        <button class="text-2xl md:text-4xl px-6 py-7 bg-blue-700 m-8 text-white font-bold">
+            AGENDAMENTO
+        </button>
+    </section>
+    <div class="grid grid-cols-1 md:grid-cols-2 bg-gray-100">
+        <div class=" flex text-xl pl-12 ">
+            <a href="https://www.hcor.com.br/">Home </a>
+            <h1 class="text-blue-600"> &#8680 Agendamento</h1>
+        </div>
+        <div class=" flex py-2 items-center ml-12 md:ml-0 md:ml-40">
+            Compartilhe: <a class="mx-4"
+                href="https://twitter.com/intent/tweet?url=https://www.hcor.com.br/exames-e-consultas/agendamento/&text=Agendamento%20-%20Exames%20e%20Consultas%20-%20Hcor">
+                <img src="./images/twitter.png" width="30px"></a>
+            <a class="mx-4" href="https://www.hcor.com.br/exames-e-consultas/agendamento/#">
+                <img src="./images/whatsapp (1).png" width="30px"></a>
+            <a class="mx-4"
+                href="https://www.facebook.com/sharer/sharer.php?u=https://www.hcor.com.br/exames-e-consultas/agendamento/">
+                <img src="./images/facebook.png" width="30px"></a>
+            <a class="mx-4" href="https://www.hcor.com.br/exames-e-consultas/agendamento/#">
+                <img src="./images/o-email.png" width="30px"></a>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2  container mx-auto mt-12">
+        <div class="mx-6 order-2">
+            <h1 class="text-blue-600 text-3xl font-bold">Agendamentos</h1>
+            <h1 class="mt-8 text-xl">Entre em contato com nossa Central de Agendamento para agendar e/ou cancelar
+                consultas,
+                exames ou obter informações.</h1>
+            <h1 class="bg-blue-500 py-10 text-center my-8 text-xl px-12 text-white font-bold">
+                Telefone da Central de Agendamento: (11) 3889-3939</h1>
+            <h1 class="font-bold text-xl mb-4">Funcionamento:</h1>
+
+            <p class="text-lg pb-20"> De segunda à sexta, das 7h às 21h;
+                Aos sábados das 7h às 18h.</p>
+        </div>
+        <div class="md:order-2">
+            <div class="gap-1 text-center text-white text-lg font-bold mx-4 md:mx-24 pb-12"
+                style="display: grid; grid-template-columns: 1fr 1fr;">
+                <div class="bg-blue-500 hover:bg-blue-700 py-10 col-start-1 col-end-3">
+                    <a class="py-10" href="https://www.hcor.com.br/exames-e-consultas/resultado-de-exames/">Resultado Do
+                        Exame</a>
+                </div>
+                <div class="bg-blue-500 hover:bg-blue-700 py-10">
+                    <a class=" py-10 " href="https://www.hcor.com.br/exames-e-consultas/agendamento/"> Agendamento </a>
+                </div>
+                <div class="py-10 bg-blue-500 hover:bg-blue-700">
+                    <a class=" py-10" href="https://www.hcor.com.br/exames-e-consultas/buscar-medico-servico/">Busca por
+                        Médico</a>
+                </div>
+                <div class="py-10 bg-blue-500 hover:bg-blue-700">
+                    <a class=" py-10" href="https://www.hcor.com.br/exames-e-consultas/convenios/">Convênios</a>
+                </div>
+                <div class="py-10 hover:bg-blue-700 bg-blue-500">
+                    <a class="py-10"
+                        href="https://www.hcor.com.br/exames-e-consultas/hcor-diagnostico/clinic-check-up/">Clinic
+                        Check-up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
